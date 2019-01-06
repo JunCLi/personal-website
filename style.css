@@ -1,0 +1,82 @@
+/*
+=========================
+General Styling
+=========================
+*/
+
+body {
+  background-image: url(Images/living-room-grass-pic-darken-18-9.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 1920px 710px;
+}
+
+/*
+=========================
+Header Styling
+=========================
+*/
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin-top: 30px
+}
+
+/*
+=========================
+Navigation Styling
+=========================
+*/
+
+nav {
+  display: grid;
+  justify-content: end;
+  margin-right: 25%;
+}
+
+nav ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 1.5em;
+  font-size: 1.1em;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  padding: 7px;
+  border: 2px solid transparent;
+  color:white;
+}
+
+nav ul li a:hover {
+  color: white;
+  border: 2px solid white;
+  text-decoration: none;
+}
+
+/*
+=========================
+Header Styling
+=========================
+*/
+
+.home-intro {
+  color: white;
+}
+
+.home-intro h1 {
+  margin: 150px 0 0;
+  text-align: center;
+  font-size: 6em;
+}
+
+.home-intro h2 {
+  margin-top: -30px;
+  text-align: center;
+  font-size: 2em;
+}
