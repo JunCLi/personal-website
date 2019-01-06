@@ -9,6 +9,7 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: 1920px 710px;
+  font-family: 'Raleway', sans-serif;
 }
 
 /*
@@ -22,6 +23,22 @@ header {
   grid-template-columns: 1fr 1fr;
   align-items: center;
   margin-top: 30px
+}
+
+/*
+=========================
+Logo Styling
+=========================
+*/
+
+#logo {
+  margin-left: 25%;
+  margin-right: 20px;
+}
+
+#logo img {
+  height: 70px;
+  width: 70px;
 }
 
 /*
