@@ -172,7 +172,18 @@ footer h2 {
   font-size: 2em;
 }
 
+.social-media {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 1em;
+}
+
 .mail {
-  height: 20px;
-  width: 20px;
+  height: 25px;
+  width: 25px;
+}
+
+.linkedin {
+  height: 25px;
+  width: 25px;
 }
