@@ -175,7 +175,7 @@ footer h2 {
 .social-media {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-column-gap: 1em;
+  column-gap: 1.5em;
 }
 
 .mail {
