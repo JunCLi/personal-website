@@ -93,22 +93,22 @@ Bottom Navigation Styling
 
 /*
 =========================
-Home Intro Styling
+Home Banner Styling
 =========================
 */
 
-.home-intro {
+.home-banner {
   color: white;
   text-shadow: black 1px 1px 1px;
 }
 
-.home-intro h1 {
+.home-banner h1 {
   margin: 150px 0 0;
   text-align: center;
   font-size: 6em;
 }
 
-.home-intro h2 {
+.home-banner h2 {
   margin-top: -30px;
   text-align: center;
   font-size: 2em;
